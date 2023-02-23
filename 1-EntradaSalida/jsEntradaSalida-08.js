@@ -11,15 +11,15 @@ function SacarResto()
 	var resultado;
 
 	numeroDividendo = document.getElementById("txtIdNumeroDividendo").value;
-	numeroDivisor = document.getElementById("txtIdNumeroDivisor").value
+	numeroDivisor = document.getElementById("txtIdNumeroDivisor").value;
 
 	//parseo
 	numeroDividendo = parseInt(numeroDividendo);
 	numeroDivisor = parseInt(numeroDivisor);	
 
  	//operacion 
-	resultado = numeroDividendo / numeroDivisor
+	resultado = numeroDividendo % numeroDivisor;
 
 	//mostrar en pantalla
-	alert("ok");
+	alert("El resto es " + resultado) 
 }

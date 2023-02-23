@@ -8,15 +8,20 @@ function mostrarAumento()
 //declaro variables
 	var importeIngresado;
 	var	resultado;
-	var
+	var aumento;
 
-	importeIngresado = document.getElementById(txtIdImporte);
-	resultado = document.getElementById(txtIdResultado);
+	importeIngresado = document.getElementById("txtIdSueldo").value;
 
 	//parseo
-	importeIngresado = parseInt(importeIngresado)
+	importeIngresado = parseFloat(importeIngresado);
+
+	aumento = importeIngresado * 0.1;
+	
+	resultado = importeIngresado + aumento;
+	
+	
+	//salida 
+	document.getElementById("txtIdResultado").value = resultado;
 
 
-
-	alert("ok");
 }
