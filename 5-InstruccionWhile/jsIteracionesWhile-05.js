@@ -11,10 +11,10 @@ function mostrar()
 		alert("el sexo ingresado es incorrecto")
 		sexoIngresado = prompt("ingrese f ó m .");
 	}
-	if (sexoIngresado == "f") {
+	/*if (sexoIngresado == "f") {
 		alert("El sexo ingresado es femenino")
 	}else if (sexoIngresado == "m")
-	alert("El sexo ingresado es Masculino")
+	alert("El sexo ingresado es Masculino")*/
 
 
 	

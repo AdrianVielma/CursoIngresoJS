@@ -9,7 +9,7 @@ function mostrar()
 	//asignamos valor
 	edad = document.getElementById("txtIdEdad").value;
 
-	//parseo
+	//parseo(convierto de texto a numero)
 	edad = parseInt(edad);
 
 	if (edad <12 || edad >18)
